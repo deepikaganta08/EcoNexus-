@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>AI Waste Guide | EcoNexus</title><link rel="stylesheet" href="assets/style.css"></head><body>
+<header class="topbar">
+<a class="logo" href="index.html"><span class="logo-mark">E</span>EcoNexus</a>
+<nav>
+<a href="index.html">Home</a><a href="dashboard.html">Dashboard</a><a href="disposal.html">Disposal</a>
+<a href="sanitization.html">Sanitization</a><a href="ai-guide.html">AI Guide</a><a href="t2t.html">T2T</a>
+<a href="tracking.html">Track</a><a href="impact.html">Impact</a><a href="admin.html">Admin</a>
+</nav></header><main>
+<section class="dark"><div class="container page-head"><div class="eyebrow" style="color:#baf36a">AI WASTE GUIDE</div><h1>Snap it. <span>Understand it.</span></h1><p class="lead">Upload a waste photo to receive a prototype AI-assisted classification and segregation recommendation.</p></div>
+<div class="container ai-layout"><div class="card"><div class="scanner"><div class="scan"></div>♻️</div><input id="aiFile" type="file" accept="image/*" style="margin:15px 0;width:100%" onchange="preview(this,'aiPreview')"><img id="aiPreview" class="preview"><button class="btn lime" style="width:100%" onclick="analyzeWaste()">Analyze waste</button></div><div id="result" class="result"><div style="text-align:center;margin-top:75px"><div style="font-size:48px">✦</div><h3>AI result appears here</h3><p>Choose a photo to see a prototype result.</p></div></div></div></section>
+</main><footer><p class="lead">EcoNexus</p><span></span></footer><div id="toast" class="toast"></div><script src="assets/app.js"></script></body></html>
